@@ -1,0 +1,18 @@
+MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION (MoSPI)
+GOVERNMENT OF INDIA
+NATIONAL SAMPLE SURVEY (NSS) - OPERATIONAL GUIDELINES ON SAMPLING DESIGN
+
+1. Introduction to Multi-Stage Stratified Sampling:
+The National Sample Survey typically adopts a stratified multi-stage design. The First Stage Units (FSUs) are census villages in the rural sector and Urban Frame Survey (UFS) blocks in the urban sector. The Ultimate Stage Units (USUs) are households in both sectors.
+
+2. Stratification and Sub-stratification:
+Each district of a State/UT is taken as a basic stratum. In rural areas, if the population of a district exceeds specified thresholds, it is divided into sub-strata based on geographic contiguity and cropping patterns. In urban areas, towns are stratified based on population size classes.
+
+3. Allocation of Samples:
+Total sample FSUs allocated to a State/UT are distributed between rural and urban sectors in proportion to population. Within each sector of a district, the sample is allocated to strata proportional to population.
+
+4. Selection of FSUs and Hamlet-Group Formation:
+FSUs in rural areas are selected by Probability Proportional to Size with Replacement (PPSWR) or Simple Random Sampling Without Replacement (SRSWOR). For large FSUs with approximate present population exceeding 1200 or more, hamlet groups (hg) or sub-blocks (sb) are delineated to reduce listing workload while maintaining probability weights.
+
+5. Estimation Procedure and Multipliers:
+Let y_hij be the value of the characteristic for the j-th USU of the i-th FSU in the h-th stratum. Unbiased estimators of the aggregate Y are computed using the design weights or multipliers. Multipliers are the inverse of the overall probability of selection of the sample units. Non-sampling errors like non-response are handled via re-weighting or hot-deck imputation.

@@ -1,0 +1,16 @@
+ECONOMIC STATISTICS DIVISION, MoSPI
+TECHNICAL MANUAL ON CONSUMER PRICE INDEX (CPI - RURAL, URBAN, COMBINED)
+
+1. Purpose and Scope of CPI:
+The Consumer Price Index (CPI) measures changes over time in the general level of prices of goods and services that a reference population acquires, uses, or pays for consumption. CPI is used as the nominal anchor for monetary policy by the Reserve Bank of India (targeting 4% headline CPI with a +/- 2% tolerance band).
+
+2. Weighting Diagram:
+Weights for items in the CPI basket are derived from Consumer Expenditure Surveys (CES) conducted by NSSO. The weights represent the share of consumption expenditure incurred by households on each item relative to total consumption expenditure.
+
+3. Price Collection Mechanism:
+Prices of rural items are collected weekly/monthly from designated rural markets/villages across all States and UTs by field officers of the Field Operations Division (FOD). Urban prices are collected from selected markets in cities/towns. CAPI-based mobile applications with geo-fencing are employed to ensure authenticity of spot price quotations.
+
+4. Index Formula:
+The index is compiled using the Laspeyres formula:
+I_t = [ Sum( W_i * (P_it / P_i0) ) / Sum( W_i ) ] * 100
+where W_i is the base period expenditure weight of item i, P_it is the price of item i in current month t, and P_i0 is the base period price of item i.

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "q1",
+    "category": "Sampling Methods",
+    "difficulty": "Intermediate",
+    "question": "In a multi-stage stratified survey conducted by the National Sample Survey (NSS), what constitutes the First Stage Unit (FSU) in the rural sector?",
+    "options": [
+      "A. Individual rural households",
+      "B. Census Villages / Gram Panchayats",
+      "C. Hamlet groups with 50+ households",
+      "D. Revenue districts"
+    ],
+    "correct_index": 1,
+    "explanation": "In NSS rural surveys, the First Stage Units (FSUs) are standard Census Villages (or Panchayats), from which hamlet groups are delineated and ultimate sample households (USUs) are chosen.",
+    "competency_weight": 20
+  },
+  {
+    "id": "q2",
+    "category": "Sampling Methods",
+    "difficulty": "Basic",
+    "question": "Which sampling method ensures that every individual element in the target population has a known and non-zero probability of selection?",
+    "options": [
+      "A. Quota Sampling",
+      "B. Convenience Sampling",
+      "C. Probability Sampling (e.g., Simple Random Sampling)",
+      "D. Snowball Sampling"
+    ],
+    "correct_index": 2,
+    "explanation": "Probability sampling provides a mathematically quantifiable, non-zero chance of selection for each frame element, allowing unbiased parameter and variance estimation.",
+    "competency_weight": 20
+  },
+  {
+    "id": "q3",
+    "category": "Sampling Methods",
+    "difficulty": "Advanced",
+    "question": "What is the primary role of the 'Design Effect' (Deff) when planning a nationwide complex survey?",
+    "options": [
+      "A. To calculate the total survey expenditure",
+      "B. To measure the ratio of the variance under the complex sample design to the variance of a simple random sample of identical size",
+      "C. To determine the number of survey interviewers required per district",
+      "D. To adjust for inflation in field enumerator allowances"
+    ],
+    "correct_index": 1,
+    "explanation": "Design Effect (Deff = Var_complex / Var_srs) reflects sample variance inflation caused by clustering, stratification, and unequal weighting in multi-stage surveys.",
+    "competency_weight": 20
+  },
+  {
+    "id": "q4",
+    "category": "Economic Statistics",
+    "difficulty": "Intermediate",
+    "question": "Under the System of National Accounts (SNA) adopted by CSO/MoSPI, what is the exact relationship between GDP at Market Prices and Gross Value Added (GVA) at Basic Prices?",
+    "options": [
+      "A. GDP = GVA at Basic Prices + Net Product Taxes (Product Taxes - Product Subsidies)",
+      "B. GDP = GVA at Basic Prices - Net Production Taxes",
+      "C. GDP = GVA at Factor Cost + Wholesale Price Index adjustment",
+      "D. GDP = GVA at Basic Prices / Inflation Deflator"
+    ],
+    "correct_index": 0,
+    "explanation": "GDP at Market Prices = GVA at Basic Prices + Product Taxes - Product Subsidies. This is the official international and MoSPI standard since the 2011-12 base year revision.",
+    "competency_weight": 20
+  },
+  {
+    "id": "q5",
+    "category": "Economic Statistics",
+    "difficulty": "Basic",
+    "question": "Which index formula is predominantly utilized for compiling India's Index of Industrial Production (IIP) and Consumer Price Index (CPI)?",
+    "options": [
+      "A. Paasche's Index Formula",
+      "B. Laspeyres' Weighted Base-Period Formula",
+      "C. Fisher's Ideal Index Formula",
+      "D. Marshall-Edgeworth Formula"
+    ],
+    "correct_index": 1,
+    "explanation": "Laspeyres' formula uses base-year quantity/expenditure weights, making it operationally feasible for routine monthly compilation of CPI and IIP without waiting for current period expenditure data.",
+    "competency_weight": 20
+  },
+  {
+    "id": "q6",
+    "category": "Data Analysis",
+    "difficulty": "Intermediate",
+    "question": "When analyzing sample survey data in R or Python, why should standard unweighted OLS regression not be applied directly without survey weights?",
+    "options": [
+      "A. R and Python will crash due to matrix singularity",
+      "B. Sample design weights are required to correct for unequal selection probabilities and non-response to avoid biased population estimates",
+      "C. Unweighted regressions only work with normal distributions",
+      "D. Standard regression automatically excludes outlier states"
+    ],
+    "correct_index": 1,
+    "explanation": "Official survey data involves complex sampling probabilities. Neglecting survey sampling weights results in biased parameter estimates and understated standard errors.",
+    "competency_weight": 20
+  },
+  {
+    "id": "q7",
+    "category": "Data Analysis",
+    "difficulty": "Advanced",
+    "question": "What is the primary objective of Small Area Estimation (SAE) methods like the Fay-Herriot model in district-level official statistics?",
+    "options": [
+      "A. To replace census enumeration completely",
+      "B. To produce reliable parameter estimates for domains with very small sample sizes by borrowing strength from auxiliary administrative or satellite data",
+      "C. To automatically redact personal identifiers of respondents",
+      "D. To speed up data entry speed in CAPI tablets"
+    ],
+    "correct_index": 1,
+    "explanation": "Small Area Estimation borrows strength through area-level or unit-level empirical best linear unbiased predictors (EBLUP) to produce robust district/block level indicators where sample size is too thin.",
+    "competency_weight": 20
+  },
+  {
+    "id": "q8",
+    "category": "Field Operations",
+    "difficulty": "Basic",
+    "question": "Which of the following errors is classified as a 'Non-Sampling Error' in official statistical data collection?",
+    "options": [
+      "A. Random variance between different drawn random samples",
+      "B. Measurement errors, non-response, and data recording errors during field enumeration",
+      "C. Error solely attributable to sample size restrictions",
+      "D. The standard error of the mean in an infinite population"
+    ],
+    "correct_index": 1,
+    "explanation": "Non-sampling errors arise from questionnaire ambiguity, respondent recall bias, non-response, enumerator error, and data transcription?present in both sample surveys and complete censuses.",
+    "competency_weight": 20
+  },
+  {
+    "id": "q9",
+    "category": "Field Operations",
+    "difficulty": "Intermediate",
+    "question": "How does Computer-Assisted Personal Interviewing (CAPI) improve data quality compared to traditional Pen-and-Paper Personal Interviewing (PAPI)?",
+    "options": [
+      "A. CAPI eliminates the need for field enumerators",
+      "B. CAPI implements built-in real-time validation checks, range filters, skip logic, and paradata audit trails",
+      "C. CAPI guarantees 100% respondent participation",
+      "D. CAPI automatically fills in answers if respondents refuse to answer"
+    ],
+    "correct_index": 1,
+    "explanation": "CAPI tools run real-time logic gates, consistency checks, audio paradata, and GPS verification right at the point of data capture, dramatically cutting down downstream data cleaning cycles.",
+    "competency_weight": 20
+  },
+  {
+    "id": "q10",
+    "category": "AI & Data Science",
+    "difficulty": "Intermediate",
+    "question": "In the context of the National Data Governance Framework and Official Statistics, how can Retrieval-Augmented Generation (RAG) assist statistical officers?",
+    "options": [
+      "A. By hallucinating arbitrary survey results without verification",
+      "B. By grounding AI responses strictly in authorized MoSPI manuals, national survey guidelines, and official circulars with verifiable source citations",
+      "C. By replacing statistical officers with unsupervised chat bots",
+      "D. By permanently deleting old microdata archives"
+    ],
+    "correct_index": 1,
+    "explanation": "RAG pairs Large Language Models with vector retrieval from official government documentation, ensuring that every AI answer or generated question is grounded in factual, validated MoSPI literature.",
+    "competency_weight": 20
+  }
+]

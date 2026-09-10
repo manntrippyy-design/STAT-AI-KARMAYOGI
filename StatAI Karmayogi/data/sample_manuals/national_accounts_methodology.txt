@@ -1,0 +1,20 @@
+CENTRAL STATISTICS OFFICE (CSO), MoSPI
+METHODOLOGY FOR COMPILATION OF NATIONAL ACCOUNTS AND GROSS VALUE ADDED (GVA)
+
+1. Conceptual Framework:
+India's National Accounts Statistics (NAS) are compiled following the United Nations System of National Accounts 2008 (SNA 2008). The production boundary includes production of goods and services for market exchange as well as own-account gross fixed capital formation.
+
+2. Distinction between GVA at Basic Prices and GDP at Market Prices:
+Gross Value Added (GVA) at Basic Prices is defined as output valued at basic prices less intermediate consumption valued at purchasers' prices.
+GDP at Market Prices is derived as:
+GDP = GVA at Basic Prices + Product Taxes - Product Subsidies.
+Product taxes include GST, excise duties, customs duties, and sales tax. Product subsidies include food, petroleum, and fertilizer subsidies.
+
+3. Sectoral Classification of the Indian Economy:
+The economy is divided into three broad sectors:
+- Primary Sector: Agriculture, forestry, fishing, and mining & quarrying.
+- Secondary Sector: Manufacturing, electricity, gas, water supply, and construction.
+- Tertiary Sector: Trade, repair, hotels, transport, financial services, real estate, and public administration.
+
+4. Formal vs Informal Sector Estimation:
+For the corporate formal sector, Ministry of Corporate Affairs (MCA-21) electronic filings provide audited enterprise balance sheets. For the unorganized informal sector, benchmark survey results from NSS Unincorporated Non-Agricultural Enterprise surveys and Annual Survey of Unincorporated Sector Enterprises (ASUSE) are used with volume and value extrapolation indicators.

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "IGOT-STAT-401",
+    "title": "Sampling Design & Multi-Stage Stratification in NSS Surveys",
+    "provider": "National Statistical Systems Training Academy (NSSTA)",
+    "category": "Sampling Methods",
+    "level": "Advanced",
+    "duration": "14 Hours (Self-Paced)",
+    "modules": 5,
+    "credits": 4,
+    "rating": 4.9,
+    "enrolled": 1280,
+    "badge": "MoSPI Certified",
+    "competency_boost": {
+      "Sampling Methods": 25,
+      "Field Operations": 15
+    },
+    "description": "Comprehensive grounding on First Stage Units (FSUs), Ultimate Stage Units (USUs), sampling weights, and design effect according to NSS 78th/79th round standards.",
+    "topics": [
+      "Stratified Random Sampling",
+      "Multi-stage Survey Design",
+      "FSU/USU Selection",
+      "Multiplier Derivations"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "IGOT-STAT-302",
+    "title": "National Accounts Compilation & Macroeconomic Aggregates",
+    "provider": "Central Statistics Office (CSO) / MoSPI",
+    "category": "Economic Statistics",
+    "level": "Intermediate",
+    "duration": "18 Hours (Self-Paced)",
+    "modules": 6,
+    "credits": 5,
+    "rating": 4.8,
+    "enrolled": 950,
+    "badge": "Core National Curriculum",
+    "competency_boost": {
+      "Economic Statistics": 30,
+      "Data Analysis": 15
+    },
+    "description": "System of National Accounts (SNA 2008) framework, GVA vs GDP calculation, informal sector estimation, and deflator methodology.",
+    "topics": [
+      "GVA by Economic Activity",
+      "GDP at Constant vs Current Prices",
+      "Input-Output Tables",
+      "SNA 2008 Standards"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "IGOT-STAT-505",
+    "title": "Applied Statistical Analysis & Econometrics with R and Python",
+    "provider": "MoSPI Data Innovation Lab & ISI Kolkata",
+    "category": "Data Analysis",
+    "level": "Advanced",
+    "duration": "20 Hours (Hands-on Labs)",
+    "modules": 8,
+    "credits": 6,
+    "rating": 4.95,
+    "enrolled": 2140,
+    "badge": "High Demand",
+    "competency_boost": {
+      "Data Analysis": 30,
+      "AI & Data Science": 20
+    },
+    "description": "Hands-on scripting for survey weighting, regression models, time-series forecasting, and automated data cleaning pipelines.",
+    "topics": [
+      "Survey Analysis in R (survey package)",
+      "OLS & GLM Diagnostics",
+      "Time Series (ARIMA)",
+      "Python Pandas for Survey Microdata"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "IGOT-STAT-204",
+    "title": "Price Indices & Industrial Production: CPI & IIP Methodology",
+    "provider": "Economic Statistics Division (ESD)",
+    "category": "Price Indices",
+    "level": "Intermediate",
+    "duration": "10 Hours",
+    "modules": 4,
+    "credits": 3,
+    "rating": 4.7,
+    "enrolled": 820,
+    "badge": "MoSPI Certified",
+    "competency_boost": {
+      "Economic Statistics": 20,
+      "Field Operations": 10
+    },
+    "description": "Base year updating protocols, Laspeyres and Paasche index formulations, item basket selection, and rural/urban weighting.",
+    "topics": [
+      "Laspeyres Formula",
+      "Item Basket & Weighting Diagram",
+      "Data Validation in IIP",
+      "Headline vs Core Inflation"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "IGOT-STAT-108",
+    "title": "Field Operations, CAPI Tools & Data Quality Assurance",
+    "provider": "Field Operations Division (FOD) - MoSPI",
+    "category": "Field Operations",
+    "level": "Foundation",
+    "duration": "12 Hours",
+    "modules": 4,
+    "credits": 3,
+    "rating": 4.85,
+    "enrolled": 3400,
+    "badge": "Mandatory for FOD",
+    "competency_boost": {
+      "Field Operations": 35,
+      "Data Quality": 20
+    },
+    "description": "Computer Assisted Personal Interviewing (CAPI), non-sampling error reduction, field spot-checks, and geo-tagged data capture.",
+    "topics": [
+      "CAPI Mobile Data Collection",
+      "Non-Sampling Error Mitigation",
+      "Re-interview Techniques",
+      "Paradata Auditing"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "IGOT-STAT-310",
+    "title": "Data Visualization, Interactive Dashboards & Public Dissemination",
+    "provider": "Computer Centre, Ministry of Statistics & PI",
+    "category": "Data Visualization",
+    "level": "Intermediate",
+    "duration": "15 Hours",
+    "modules": 5,
+    "credits": 4,
+    "rating": 4.88,
+    "enrolled": 1670,
+    "badge": "Popular",
+    "competency_boost": {
+      "Data Visualization": 35,
+      "Data Analysis": 10
+    },
+    "description": "Modern visualization techniques, PowerBI/Tableau for open government data, choropleth mapping for district-level statistics.",
+    "topics": [
+      "SDMX & e-GDDS Standards",
+      "Choropleth Maps & Geo-spatial GIS",
+      "Interactive Indicator Portals",
+      "Accessible Chart Design"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "IGOT-STAT-601",
+    "title": "AI, Machine Learning & Small Area Estimation in Public Statistics",
+    "provider": "Karmayogi Bharat Tech Wing & MoSPI",
+    "category": "AI & Data Science",
+    "level": "Expert",
+    "duration": "22 Hours",
+    "modules": 7,
+    "credits": 7,
+    "rating": 4.96,
+    "enrolled": 780,
+    "badge": "Emerging Tech 2026",
+    "competency_boost": {
+      "AI & Data Science": 35,
+      "Sampling Methods": 15
+    },
+    "description": "Synthetic data estimation, Fay-Herriot models, satellite imagery integration for crop yield statistics, and NLP for survey text classification.",
+    "topics": [
+      "Fay-Herriot SAE Models",
+      "Geospatial Earth Observation for Crop Yield",
+      "LLM-based Survey Coding",
+      "Privacy-Preserving Synthetic Data"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=500&auto=format&fit=crop&q=60"
+  }
+]
